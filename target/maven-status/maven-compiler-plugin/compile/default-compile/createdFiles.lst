@@ -1,0 +1,6 @@
+ru\mail\base\BaseTest.class
+ru\mail\pages\ComposeEmailPage.class
+ru\mail\pages\ProfilePage.class
+ru\mail\base\BasePageObject.class
+ru\mail\base\BrowserFactory.class
+ru\mail\pages\LoginPage.class

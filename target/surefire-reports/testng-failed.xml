@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="EmailTest-FF(failed)" preserve-order="true">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="ru.mail.LoginTest">
+        <methods>
+          <include name="methodTearDown"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="methodSetUp"/>
+          <include name="positiveLoginTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
