@@ -18,7 +18,7 @@ public class LoginTest extends BaseTest{
 		profilePage.pushcomposeEmailButton();
 		ComposeEmailPage composeEmailPage = new ComposeEmailPage(driver);
 		composeEmailPage.waitForProfilePageToLoad();
-		composeEmailPage.fillUpEmailReceiverAndTextArea("prims_test@mail.ru", "Hello, this is a test message");
+		composeEmailPage.fillUpEmailReceiverAndTextArea("toEmail@###", "Hello, this is a test message");
 		composeEmailPage.pushSignButton();
 		
 	}
