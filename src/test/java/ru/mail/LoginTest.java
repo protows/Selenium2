@@ -11,7 +11,7 @@ public class LoginTest extends BaseTest{
 	  public void positiveLoginTest() {
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.openLoginPage();
-		loginPage.fillUpEmailAndPassword("prims_test@mail.ru", "s9df87htr5");
+		loginPage.fillUpEmailAndPassword("####", "#####");
 		loginPage.pushSignButton();
 		ProfilePage profilePage = new ProfilePage(driver);
 		profilePage.waitForProfilePageToLoad();
